@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 1px solid red;
 }
 
 body {
@@ -540,9 +541,4 @@ body {
         height: 50px;
         font-size: 1.5rem;
     }
-}
-
-/* Adicione isso no final do seu CSS para teste */
-.menu-toggle {
-    border: 2px solid red !important; /* Adiciona uma borda vermelha visível */
 }
