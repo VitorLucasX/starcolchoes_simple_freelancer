@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid red;
 }
 
 body {
@@ -26,6 +25,15 @@ body {
     width: 100%;
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Estilo para garantir que o mapa seja responsivo */
+.contact-map iframe {
+    width: 100%;  
+    max-width: 600px; 
+    height: 400px; 
+    border: 0;       
+    border-radius: 8px; 
 }
 
 .header .container {
